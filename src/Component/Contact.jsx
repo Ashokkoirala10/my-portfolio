@@ -25,7 +25,7 @@ const Contact = () => {
       lastName: "",
       email: "",
       phone: "",
-      description: "",
+      description: "", 
     });
   };
 
