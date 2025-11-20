@@ -1,6 +1,6 @@
 import React from "react";
 import django from "../assets/django.png";
-import java from "../assets/java.png";
+import java from "../assets/Java.png";
 import js from "../assets/js.png";
 import powerbi from "../assets/powerbi.png";
 import python from "../assets/python.png";
@@ -10,7 +10,6 @@ import php from "../assets/php.png";
 const Skills = () => {
   return (
     <div className="bg-gray-800 text-white w-full">
-
       <div className="max-w-6xl mx-auto w-full py-10 sm:py-14 md:py-20 lg:py-24 px-4 sm:px-6 lg:px-8 relative">
         <div className="absolute bottom-0 left-4 w-full h-1 bg-gradient-to-r from-[#00A8CD] to-transparent"></div>
         {/* Skills Title at Top Center */}
@@ -109,7 +108,6 @@ const Skills = () => {
             </div>
           </div>
         </div>
-
       </div>
     </div>
   );
