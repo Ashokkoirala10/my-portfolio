@@ -33,7 +33,7 @@ const Achievements = () => {
           <h1 className="text-4xl font-bold lg:text-4xl">
             My <span className="text-[#00A8CD]">Achievements</span>
           </h1>
-          <p className="text-gray-300 mt-2 lg:text-xl text-lg sm:text-base max-w-2xl mx-auto">
+          <p className="text-gray-300 mt-3 lg:text-xl text-lg sm:text-base max-w-2xl mx-auto">
             A few selected achievements. Click on each to know more. More will
             be added over time.
           </p>

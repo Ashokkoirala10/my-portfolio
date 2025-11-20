@@ -19,7 +19,7 @@ const Home = () => {
           <img 
             src={photo} 
             alt="Ashok Koirala" 
-            className="w-48 h-48 sm:w-60 sm:h-60 lg:w-96 lg:h-96 rounded-full shadow-xl border-4 border-[#00A8CD]" 
+            className="w-48 h-48 sm:w-60 sm:h-60 lg:w-96 lg:h-96 rounded-full shadow-xl border-4 border-[#00A8CD] object-cover" 
           />
         </div>
 
