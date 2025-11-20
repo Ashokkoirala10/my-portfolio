@@ -50,7 +50,7 @@ const Projects = () => {
           <h1 className="text-4xl font-bold text-center lg:text-4xl">
             My <span className="text-[#00A8CD]">Projects</span>
           </h1>
-          <p className="text-gray-300 mt-2 lg:text-xl text-lg sm:text-base max-w-2xl mx-auto">
+          <p className="text-gray-300 mt-3 lg:text-xl text-lg sm:text-base max-w-2xl mx-auto">
             These are a few selected projects showcasing my skills and
             expertise. For a complete view of my work, feel free to visit my
             GitHub profile Provided above on home section.
