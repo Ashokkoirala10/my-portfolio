@@ -20,7 +20,7 @@ const About = () => {
         {/* Right Content */}
         <div className="lg:w-1/2 flex flex-col items-center lg:items-end px-4 lg:px-0 order-2">
           <div className="w-full text-center lg:text-left">
-            <h1 className="text-3xl lg:text-4xl font-bold overflow-hidden pb-2">
+            <h1 className="text-3xl lg:text-4xl font-bold overflow-hidden pb-3">
               About <span className="text-[#00A8CD]">Me</span>
             </h1>
           </div>
