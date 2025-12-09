@@ -13,7 +13,7 @@ const Projects = () => {
       description:
         "🧠 AI Day Planner + Task Reminder is designed for seniors, busy professionals, and anyone who needs a little help staying organized. With voice command support, smart notifications, and real-time readouts, it not only reminds you what to do—it tells you when to do it. Plus, its built-in chatbot makes planning effortless and interactive",
       image: task_reminder,
-      github: "https://github.com/Ashokkoirala10/Day_Planner_AI",
+      github: "https://github.com/Ashokkoirala10/Ai-Day-Planner-Plus-Notification-Reminder",
     },
     {
       id: 2,
