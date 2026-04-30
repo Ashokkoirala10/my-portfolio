@@ -2,7 +2,7 @@ import React from 'react';
 import photo from "../assets/self-photo.jpg";
 import linkedin from "../assets/linkedin.png";
 import save from "../assets/download-icon.png";
-import cv from "../assets/your-cv.pdf"; 
+import cv from "../assets/Ashok-cv.pdf"; 
 import { FaGithub } from "react-icons/fa"; // Import GitHub icon
 
 const Home = () => {
@@ -29,11 +29,11 @@ const Home = () => {
             Hi, I'm <span className="typewriter text-[#00A8CD]">Ashok Koirala</span>
           </h1>
           <h2 className="text-lg sm:text-xl lg:text-3xl font-semibold text-[#00A8CD] animate-fadeIn delay-100">
-            Full-Stack Developer | Machine Learning & AI Practitioner
+            Full-Stack Developer | Fintech Automation & AI Engineer
           </h2>
           <p className="text-sm sm:text-base lg:text-lg animate-fadeIn delay-200 max-w-md">
-            I build intelligent full-stack applications using modern web technologies and machine learning.
-            Passionate about AI-powered solutions, automation and data-driven systems.
+            I build production-grade Django and FastAPI systems that turn manual fintech workflows into
+            automated, audit-ready solutions — backed by a passion for AI, MLOps and data-driven design.
           </p>
           
           {/* Buttons */}

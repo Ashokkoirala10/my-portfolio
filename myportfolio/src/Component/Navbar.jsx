@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from "react";
 import { Link, scroller } from "react-scroll";
-import logo from "../assets/main-logo.png";
 import menu from "../assets/menu.png";
 import cross from "../assets/cross.png";
 
@@ -28,25 +27,32 @@ const Navbar = () => {
 
       <div className="max-w-6xl mx-auto w-full px-4 sm:px-6 lg:px-8">
         <div className="w-full flex justify-between items-center">
-          <div className="flex-shrink-0 cursor-pointer">
+          <div className="flex-shrink-0 cursor-pointer group">
             <Link
               to="home"
               spy={true}
               smooth={true}
               offset={-70}
               duration={500}
+              className="flex items-center gap-2.5"
             >
-              <img
-                src={logo}
-                alt="My Logo"
-                className="h-10 object-contain max-w-[120px]"
-              />
+              <span className="flex items-center justify-center w-9 h-9 rounded-lg bg-gradient-to-br from-[#00A8CD] to-[#006C84] text-white font-bold text-sm tracking-tight ring-1 ring-[#00A8CD]/40 group-hover:ring-[#00A8CD] group-hover:scale-105 transition-all duration-300">
+                AK
+              </span>
+              <span className="hidden sm:flex flex-col leading-tight">
+                <span className="text-white font-semibold text-sm tracking-wide group-hover:text-[#00A8CD] transition-colors">
+                  Ashok Koirala
+                </span>
+                <span className="text-[10px] text-gray-400 tracking-widest uppercase">
+                  Developer · AI
+                </span>
+              </span>
             </Link>
           </div>
 
           <div className="hidden lg:flex">
             <ul className="flex space-x-4 md:space-x-6 lg:space-x-10 text-white font-bold tracking-wide">
-              {["home", "about", "projects", "skills", "achievements"].map(
+              {["home", "about", "experience", "projects", "skills", "achievements"].map(
                 (section) => (
                   <li key={section}>
                     <Link
@@ -67,6 +73,8 @@ const Navbar = () => {
                         ? "Home"
                         : section === "about"
                         ? "About Me"
+                        : section === "experience"
+                        ? "Experience"
                         : section === "projects"
                         ? "Projects"
                         : section === "skills"
@@ -97,7 +105,7 @@ const Navbar = () => {
       {isMenuOpen && (
         <div className="fixed top-0 right-0 w-64 z-10 transition-all duration-300 ease-in-out">
           <ul className="flex flex-col mt-18 bg-opacity-10 backdrop-blur-lg p-4 rounded-lg shadow-lg w-full">
-            {["home", "about", "projects", "skills", "achievements"].map(
+            {["home", "about", "experience", "projects", "skills", "achievements"].map(
               (section) => (
                 <li
                   key={section}
@@ -116,6 +124,8 @@ const Navbar = () => {
                       ? "Home"
                       : section === "about"
                       ? "About Me"
+                      : section === "experience"
+                      ? "Experience"
                       : section === "projects"
                       ? "Projects"
                       : section === "skills"

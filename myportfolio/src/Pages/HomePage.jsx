@@ -3,31 +3,32 @@ import Navbar from "../Component/Navbar";
 import About from "../Component/About";
 import Skills from "../Component/Skills";
 import Projects from "../Component/Projects";
-import Home from "../Component/Home"; // Import Home component
+import Home from "../Component/Home";
 import Footer from "../Component/Footer";
-import Achievements from "../Component/Achievements"; // Import Achievements
+import Achievements from "../Component/Achievements";
+import Experience from "../Component/Experience";
 
 const HomePage = () => {
   return (
     <div className="scroll-smooth">
       <Navbar />
 
-      {/* Home Section */}
       <section id="home">
         <Home />
       </section>
 
-      {/* About Section */}
       <section id="about">
         <About />
       </section>
 
-      {/* Projects Section */}
+      <section id="experience">
+        <Experience />
+      </section>
+
       <section id="projects">
         <Projects />
       </section>
 
-      {/* Skills Section */}
       <section id="skills">
         <Skills />
       </section>

@@ -28,22 +28,23 @@ const About = () => {
           <p className="text-base sm:text-lg leading-relaxed text-gray-300 max-w-xl">
             I am a passionate{" "}
             <span className="text-[#00A8CD] font-medium">
-              AI-driven full-stack developer 
+              AI-driven full-stack developer
             </span>
             , currently pursuing a BSc (Hons) in Computer Science with Artificial
-            Intelligence at Sunway College. I specialize in designing and
-            developing responsive, scalable and user-focused web applications.
+            Intelligence at Sunway College. I specialize in building production-ready
+            fintech and automation systems that replace manual workflows with fast,
+            auditable software.
           </p>
 
           <p className="mt-4 text-base sm:text-lg leading-relaxed text-gray-300 max-w-xl">
-            My technical skill set includes
+            My core stack spans
             <span className="text-[#00A8CD] font-medium">
               {" "}
-              Python, Django, MySQL, React, JavaScript, PHP, Java and Power BI
+              Python, Django, FastAPI, React, MySQL, PostgreSQL and Docker
             </span>
-            , along with growing expertise in AI/ML. I love turning ideas into
-            real-world apps by blending clean UI design, strong backend
-            architectur, and intelligent machine-learning-driven features.
+            , with growing expertise in MLOps, Apache Airflow and scikit-learn.
+            I love turning ideas into real-world apps by blending clean UI design,
+            strong backend architecture and intelligent, ML-driven features.
           </p>
 
           <p className="mt-4 text-base sm:text-lg leading-relaxed text-gray-300 max-w-xl">

@@ -8,16 +8,16 @@ const Achievements = () => {
   const achievements = [
     {
       id: 1,
-      title: "ICT Semifinalist",
+      title: "ICT Rising Star — Semifinalist",
       description:
-        "Our team NeuroNode Participated with federated Learning innovation project and become semifinalist in the ICT rising star innovation competition, showcasing innovative solution for healthcare.",
+        "Our team NeuroNode reached the semifinals of the ICT Rising Star Innovation Competition with a federated learning project for healthcare — showcasing a privacy-preserving ML platform that aggregates client model parameters while keeping raw data decentralized.",
       image: ict,
     },
     {
       id: 2,
-      title: "DAV 1st runnerup",
+      title: "DAV CodeFest 2025 — Runner-up",
       description:
-        " Our team NeuroNode Awarded as a runnerup for excellence in coding and AI project development(federated learning on healthcare innovation) at DAV Tech Fest, demonstrating practical application of learned skills.",
+        "Team NeuroNode was awarded Runner-up at DAV CodeFest 2025 for excellence in coding and AI project development. Our federated learning healthcare project demonstrated practical, real-world application of advanced ML techniques.",
       image: dav,
     },
   ];
