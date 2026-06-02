@@ -57,10 +57,14 @@ const Home = () => {
 
           {/* Download CV Button */}
           <div className="flex items-center space-x-2 -mt-1 cursor-pointer ">
-            <a href={cv} download className="flex items-center space-x-2 py-1 lg:py-2 rounded-md text-white ">
-              <img src={save} alt="Download CV" className="w-4 h-4 lg:w-5 lg:h-5 " />
-              <span className="text-xs lg:text-sm ">Download CV</span>
-            </a>
+          <a
+            href={cv}
+            download="Ashok_Koirala_CV.pdf"
+            className="flex items-center space-x-2 py-1 lg:py-2 rounded-md text-white"
+          >
+            <img src={save} alt="Download CV" className="w-4 h-4 lg:w-5 lg:h-5" />
+            <span className="text-xs lg:text-sm">Download CV</span>
+          </a>
           </div>
         </div>
 
